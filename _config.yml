@@ -18,18 +18,14 @@ email: nlpbdc@gmail.com
 description: NLP Backdoor Detection
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
-
-# navigation:
-#   Home: "index"
-#   About: "about"
-#   Welcome: "welcome"
 
 navigation:
   Home: "/"
-  About: "/about/"
-  Welcome: "/welcome.html"
+  Chellenge: "/challenge/"
+  Rules: "/rules/"
+  Timeline: "/timeline/"
+  # About: "/about/"
+  # Welcome: "/welcome/"
 
 
 # Build settings
