@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #   Welcome: "welcome"
 
 navigation:
-  Home: "/index.html"
+  Home: "/"
   About: "/about/"
   Welcome: "/welcome.html"
 
