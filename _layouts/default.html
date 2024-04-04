@@ -80,6 +80,25 @@
         <h1 class="project-name">{{ site.title | default: page.title }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
         {% for item in site.navigation %}
+        <a href="{{ item[1] | prepend: site.baseurl }}" class="btn">{{ item[0] }}</a>
+        {% endfor %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+        {{ content }}
+        <footer class="site-footer">
+            <hr>
+            <!-- Footer content -->
+        </footer>
+    </main>
+</body>
+
+
+<!-- <body>
+    <header class="page-header" role="banner">
+        <h1 class="project-name">{{ site.title | default: page.title }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+        {% for item in site.navigation %}
         <a href="{{ item[1] }}" class="btn">{{ item[0] }}</a>
         {% endfor %}
 
@@ -100,6 +119,6 @@
         </footer>
     </main>
 
-</body>
+</body> -->
 
 </html>

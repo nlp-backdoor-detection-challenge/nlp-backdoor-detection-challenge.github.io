@@ -4,3 +4,6 @@
 
 layout: default
 ---
+
+
+This is the homepage of NLP Backdoor Detection Challenge.
