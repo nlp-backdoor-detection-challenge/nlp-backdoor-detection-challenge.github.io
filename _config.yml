@@ -1,27 +1,19 @@
 title: NLP Backdoor Detection Challenge
 email: nlpbdc@gmail.com
-description: "NLP Backdoor Detection"
-baseurl: "" # the subpath of your site, e.g., /blog
-url: "" # the base hostname & protocol for your site, e.g., http://example.com
+description: NLP Backdoor Detection
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Theme Configuration
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "mint" # Set the theme skin to "mint"
-
-# Navigation Settings
 navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Challenge"
-    url: "/challenge/"
-  - title: "Rules"
-    url: "/rules/"
-  - title: "Timeline"
-    url: "/timeline/"
+  Home: "/"
+  Challenge: "/challenge/"
+  Rules: "/rules/"
+  Timeline: "/timeline/"
 
 # Build settings
 markdown: kramdown
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-spaceship
+  - jekyll-spaceshi
