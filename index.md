@@ -7,6 +7,6 @@ Backdoor attacks pose a significant threat to Deep Neural Language Models by poi
 
 <br>
 
-
+Rather than relying on knowledge of poisoned data or feasible trigger sets to identify backdoored models, our goal is to identify such models in more realistic scenarios where only a collection of models is provided.
 
 <p style='text-align: justify;'>
