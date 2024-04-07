@@ -9,6 +9,10 @@ navigation:
   Challenge: "/challenge/"
   Rules: "/rules/"
   Timeline: "/timeline/"
+  StartKit: "/startkit/"
+  Organizer: "/organizer/"
+  Workshop: "/workshop/"
+
 
 # Build settings
 markdown: kramdown
